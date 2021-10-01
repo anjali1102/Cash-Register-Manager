@@ -3,6 +3,9 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0px;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
 }
 
 * {
@@ -11,33 +14,6 @@ body {
 
 :root {
   --primary-color: #f87171;
-}
-
-table {
-  table-layout: fixed;
-  width: 80%;
-  border: 5px solid white;
-  border-collapse: collapse;
-}
-th {
-  width: 100%;
-  border: 5px solid white;
-}
-td {
-  width: 50%;
-  border: 5px solid white;
-  word-wrap: break-word;
-  max-width: 1px;
-}
-
-.tbl {
-  margin: auto;
-}
-
-body {
-  background-color: var(--primary-color);
-  color: #fff;
-  text-align: center;
 }
 
 input {
@@ -60,23 +36,46 @@ button {
 }
 
 .container {
-  margin: 4rem auto 7rem;
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  align-items: center;
+  justify-content: center;
 }
 
-.input-label {
-  display: block;
+.heading{
+  color: var(--primary-color);
+  margin-bottom: 0px;
+}
+
+.label {
   font-size: large;
-  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
-.change-table{
-  text-align: center;
-  margin-left: 30px;
+.input {
+  border: 2px solid black;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
 }
-.input{
-  text-align: center;
-  margin-left: 35%;
+
+table {
+  text-align: left;
+  width: 500px;
+  font-size: larger;
 }
+th {
+  text-align: left;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
