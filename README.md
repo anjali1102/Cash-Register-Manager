@@ -4,6 +4,7 @@
 
 >A cash register manager which helps the Shopowner/Cashier by telling how can he/she return the change to the customer with minimum number of notes. It will save their time and support their business growth.
 
+Click here for  [DEMO](https://lucid-borg-3dc3e0.netlify.app/)
 
 ## Tech Stacks 🤖
 
