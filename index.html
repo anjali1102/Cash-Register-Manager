@@ -15,10 +15,10 @@
         number of notes to return.
       </p>
       <label class="label1" for="bill-amount">Bill amount:</label>
-      <input class="input" id="bill-amount" type="text" />
+      <input class="input" id="bill-amount" type="number" oninput="this.value = Math.abs(this.value)" />
       
       <label class="label1" for="cash-given">Cash Given:</label>
-      <input class="input" id="cash-given" type="text"/>
+      <input class="input" id="cash-given" type="number" oninput="this.value = Math.abs(this.value)" />
       <button id="check-button">Check</button>
       <p id="error-message"></p>
       <table class="change-table">
